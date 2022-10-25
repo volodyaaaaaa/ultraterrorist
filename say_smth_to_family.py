@@ -10,4 +10,3 @@ print("\n\nfamily_member\tage")
 for k in family:
  print(k,'\t\t',family[k])
 
-

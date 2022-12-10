@@ -10,9 +10,9 @@ const server = http.createServer((request, response) => {
          response.write('Mazeloff , jesusAVGN , eeoneguy')
          break;
       default:
-         response.write ('404 Not Found , Sorry about that bro(')
+         response.write ('404 Not Found , Sorry about that bro( ')
 
-   response.write('Vova Junior first back inc' + requestCount)   
+   response.write('  Vova Junior first back inc ' + requestCount)   
    }
    response.end()
 })
